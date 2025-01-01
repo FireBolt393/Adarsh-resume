@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.content-name {
+    margin-left: 5%;
+}
+
+.content {
+    position: relative;
+    bottom: 5%;
+    margin-left: 5%;
+}
+
+.gap {
+    margin-bottom: 5%;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.about {
+    font-weight: 100px;
+    color: rgb(90, 2, 134);
+}
+
+.credentials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.attherate {
+    color: rgb(90, 2, 134);
+    font-weight: bold;
+}
+
+.gmail {
+    color: black;
+    text-decoration: none;
+}
+
+.github {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linkedin {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linkedin-icon {
+    height: 15px;
+    width: 15px;
+    fill: rgb(90, 2, 134);
+}
+
+.title {
+    margin-top: 5%;
+    font-weight:bold;
+    font-size: large;
+    color: rgb(90, 2, 134);
+}
+
+.github-icon {
+    height: 15px;
+    width: 15px;
+    fill: rgb(90, 2, 134)
+}
+
+.hr {
+    border: 2px solid rgb(90, 2, 134);
+    width: 90vw;
+}
+
+.all-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.my-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.divider {
+    border: 0.5px dashed grey;
+    width: 90vw;
+}
+
+.project {
+    font-size: larger;
+}
+
+.company {
+    font-weight: bold;
+    color: rgb(90, 2, 134);
+}
+
+.date {
+    font-size: small;
+    color: rgb(62, 60, 60);
+}
+
+.description {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: rgb(62, 60, 60);
+}
+
+.strenths {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+    color: rgb(62, 60, 60);
+}
+
+i {
+    color: rgb(90, 2, 134);
+}
